@@ -1,0 +1,89 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: #1f2428d6;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+      margin: 100px auto;
+}
+span{
+    color: aliceblue;
+}
+h1:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #ffffff;
+    left: -15px;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #f1f1ff;
+    right: -15px;
+    top: 50%;
+    position: absolute;
+  }
+  .box-download{
+      width: 900px;
+      height: 400px;
+      
+      margin: auto;
+      background: slategray;
+      border:0;
+      box-shadow: 0 2px 7px 0 rgba(255, 255, 255, 0.411);
+  }
+  .box-download h2{
+    padding: 12px;
+    background: #55595c;
+    margin-bottom: 46px;
+  }
+    .box-download .text-weight{
+     
+      margin: 15px;
+  }
+  .box-download input{
+      width: 90%;
+   margin: 15px;
+      padding: 10px ;
+  }
+
+  .option select{
+    margin: 15px;
+      width: 90%;
+      height:50px ;
+      font-weight: bolder;
+      
+  }
+  button{
+    background: green;
+    padding: 5px;
+    outline: 0;
+    border: 0;
+    width: 96%;
+    height: 50px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 6px;
+  }
+  button a{
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+  }
